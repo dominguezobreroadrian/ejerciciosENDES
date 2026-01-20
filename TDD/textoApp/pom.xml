@@ -1,14 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>es.banco</groupId>
-  <artifactId>bancoApp</artifactId>
+  <groupId>es.texto</groupId>
+  <artifactId>textoApp</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>bancoApp</name>
+  <name>textoApp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
- <dependency>
+<dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-api</artifactId>
         <version>5.11.3</version>
@@ -20,8 +20,7 @@
         <version>5.11.3</version>
         <scope>test</scope>
     </dependency>
-    <!-- Source: https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
-<dependency>
+    <dependency>
     <groupId>com.github.javafaker</groupId>
     <artifactId>javafaker</artifactId>
     <version>1.0.2</version>
