@@ -28,6 +28,10 @@ public class Texto {
 	}
 
 
-
+	public Texto(String contenido, int maxLongitud) {
+		this.maxLongitud = maxLongitud;
+		this.contenido = contenido;
+	}
 
 }
+
