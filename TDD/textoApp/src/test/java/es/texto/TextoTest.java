@@ -35,7 +35,7 @@ class TextoTest {
         int longitud = texto.longitud();
         assertEquals(longitudEsperada, longitud, "La longitud inicial debe ser 0");
     }
-/*
+
     @Test
     @DisplayName("Constructor(maxLongitud): lanza excepción si maxLongitud <= 0 (mensaje comprobado)")
     void constructorSoloMax_maxInvalido_lanzaExcepcion() {
@@ -66,7 +66,7 @@ class TextoTest {
         int longitud = t2.longitud();
         assertEquals(longitudEsperada, longitud, "La longitud debe coincidir con el contenido inicial");
     }
-
+/*
     @Test
     @DisplayName("Constructor(contenidoInicial, maxLongitud): lanza excepción si contenidoInicial es null")
     void constructorConContenido_null_lanzaExcepcion() {
