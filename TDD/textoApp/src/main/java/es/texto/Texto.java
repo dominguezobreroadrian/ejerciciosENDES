@@ -51,7 +51,7 @@ public class Texto {
 	}
 	
 	public boolean anadirFinal(char caracter) {
-		if ((maxLongitud - contenido.length()) > 0) {
+		if (maxLongitud - contenido.length() > 0) {
 			contenido += caracter;
 			return true;
 		}
@@ -59,7 +59,7 @@ public class Texto {
 	}
 	
 	public boolean anadirInicio(char caracter) {
-		if ((maxLongitud - contenido.length()) > 0) {
+		if (maxLongitud - contenido.length() > 0) {
 			contenido = caracter + contenido;
 			return true;
 		}
